@@ -1,0 +1,4 @@
+argparse==1.4.0
+hashlib==0.0.1
+prettytable==2.2.0
+tkinter==8.6
