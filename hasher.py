@@ -10,9 +10,9 @@ import time
 class PasswordHasher:
     def __init__(self):
         self.initialize = PrettyTable(["Input","Hash"])
-        self.initialize.align = "l"
+        self.initialize.align = "c"
         self.table = []
-
+        
     def open_file(self, input_file, output_file):
         try:
             with open(input_file, "r") as input_file, open(output_file, "w") as output_file:
@@ -58,7 +58,7 @@ def print_ascii_art():
 |__/  |__/ \_______/ \______/ |__/  |__/        \_______/        |________/ \______/  \______/ |________/|__/ 
 '''
     print("\033[92m" + ascii_art + "\033[0m")
-    print("\033[91m" + "by N1ght0Wl" + "\033[0m")
+    print("by N1ght0Wl")
 
 
 if __name__ == "__main__":
