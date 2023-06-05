@@ -5,8 +5,6 @@ import tkinter as tk
 from tkinter import filedialog
 import time
 
-
-
 class PasswordHasher:
     def __init__(self):
         self.initialize = PrettyTable(["Input","Hash"])
@@ -58,7 +56,7 @@ def print_ascii_art():
 |__/  |__/ \_______/ \______/ |__/  |__/        \_______/        |________/ \______/  \______/ |________/|__/ 
 '''
     print("\033[92m" + ascii_art + "\033[0m")
-    print("by N1ght0Wl")
+    print("by N1ght0Wl \n\n")
 
 
 if __name__ == "__main__":
